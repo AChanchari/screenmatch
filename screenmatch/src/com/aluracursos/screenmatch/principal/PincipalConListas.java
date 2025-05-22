@@ -5,10 +5,7 @@ import com.aluracursos.screenmatch.modelos.Serie;
 import com.aluracursos.screenmatch.modelos.Titulo;
 import com.sun.source.tree.EnhancedForLoopTree;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Objects;
+import java.util.*;
 
 public class PincipalConListas {
     public static void main(String[] args) {
@@ -23,7 +20,7 @@ public class PincipalConListas {
 
         Pelicula p1 = peliculaDeBruno;
 
-        ArrayList<Titulo> lista = new ArrayList<>();
+        List<Titulo> lista = new LinkedList<>();
         lista.add(miPelicula);
         lista.add(otraPelicula);
         lista.add(peliculaDeBruno);
